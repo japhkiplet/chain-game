@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="pane" fx:id="chooseColorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" pickOnBounds="false" prefHeight="433.0" prefWidth="472.0" stylesheets="@../stylesheets/ColorScreenStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.ChooseColorScene">
+   <children>
+      <VBox alignment="CENTER" layoutX="36.0" layoutY="17.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" spacing="50.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="17.0">
+         <children>
+            <Button id="Color" fx:id="colorTitle" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="69.0" prefWidth="443.0" VBox.vgrow="ALWAYS">
+               <effect>
+                  <DisplacementMap>
+                     <mapData>
+                        <FloatMap />
+                     </mapData>
+                  </DisplacementMap>
+               </effect></Button>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="207.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <RadioButton id="RedRadioButton" fx:id="redPlayerRadioButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="10.0" prefWidth="200.0" translateX="7.0" VBox.vgrow="ALWAYS">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group" />
+                     </toggleGroup>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </RadioButton>
+                  <RadioButton id="BlueRadioButton" fx:id="bluePlayerRadioButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="10.0" prefWidth="200.0" toggleGroup="$group" translateX="8.0" VBox.vgrow="ALWAYS">
+                     <effect>
+                        <DropShadow />
+                     </effect></RadioButton>
+               </children>
+            </VBox>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="250.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="227.0" spacing="20.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <Button id="ConfirmButton" fx:id="confirmColorButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="252.0" VBox.vgrow="ALWAYS">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+                  <Button id="BackButton" fx:id="backButton" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="50.0" prefWidth="252.0" VBox.vgrow="ALWAYS">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

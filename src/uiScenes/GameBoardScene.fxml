@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="800.0" minWidth="800.0" pannable="true" prefHeight="606.0" prefWidth="605.0" stylesheets="@../stylesheets/GameScreenStyleSheet.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.GameBoardScene">
+   <content>
+      <AnchorPane fx:id="container" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="700.0" minWidth="700.0" prefHeight="600.0" prefWidth="600.0">
+         <children>
+            <BorderPane fx:id="boardContainer" layoutX="29.0" layoutY="29.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="700.0" minWidth="700.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="1.0">
+               <bottom>
+                  <HBox alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="225.0" prefHeight="75.0" prefWidth="600.0" spacing="20.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button id="UndoButton" fx:id="undoButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="75.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="200.0" HBox.hgrow="NEVER" />
+                        <Button id="HelpButton" fx:id="helpButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="75.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="200.0" HBox.hgrow="NEVER" />
+                        <Button id="RestartButton" fx:id="restartButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="75.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="200.0" />
+                        <Button id="EndButton" fx:id="endButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="75.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="200.0" HBox.hgrow="NEVER" />
+                     </children>
+                     <BorderPane.margin>
+                        <Insets bottom="15.0" />
+                     </BorderPane.margin>
+                  </HBox>
+               </bottom>
+            </BorderPane>
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>

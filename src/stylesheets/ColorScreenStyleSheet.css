@@ -1,0 +1,52 @@
+#pane{
+    -fx-background-image: url("../../resources/woodTexture.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#BackButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+
+}
+
+#RedRadioButton{
+	-fx-border: 4px solid;
+	-fx-text-fill:red;
+    -fx-background-size: 100% 100%;
+}
+#BlueRadioButton{
+	-fx-border: 4px solid; 
+	-fx-text-fill:blue;
+    -fx-background-size: 100% 100%;
+}
+
+#Color{
+	-fx-text-fill:white;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+
+
+#ConfirmButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+
+}

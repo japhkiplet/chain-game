@@ -1,0 +1,69 @@
+#pane{
+    -fx-background-image: url("../../resources/woodTexture.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#BackButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+#network{
+	-fx-text-fill:white;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+
+
+#JoinButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+#HostButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+
+#type{
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
+
+
+#BackButton{
+	-fx-border: 10px solid;
+	-fx-border-radius: 43px;
+	-fx-border-width: 5;
+	-fx-border-color:white;
+	-fx-border-style: dashed;
+	-fx-text-fill:#FFFF66;
+	-fx-background-color: transparent;
+	-fx-background-repeat: stretch;  
+    -fx-background-size: 100% 100%;
+}
